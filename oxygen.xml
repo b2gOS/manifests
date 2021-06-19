@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="base-q.xml"/>
+    
+    <remote fetch="https://github.com/" name="oxygen"/>
+    
+    <project path="device/xiaomi" name="MaheshTechnicals/android_device_xiaomi_oxygen" remote="oxygen" revision="pixel" />
+
+    <project path="kernel/xiaomi/oxygen" name="MaheshTechnicals/Kernel_xiaomi_oxygen" remote="oxygen" revision="lineage-16" />
+
+    <project path="vendor/xiaomi" name="MaheshTechnicals/android_vendor_oxygen" remote="oxygen" revision="lineage" />
+</manifest>
